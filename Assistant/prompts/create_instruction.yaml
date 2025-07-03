@@ -1,0 +1,9 @@
+CREATE_INSTRUCTIONS = """Reflect on the following interaction.
+
+Based on this interaction, update your instructions for how to update ToDo list items. Use any feedback from the user to update how they like to have items added, etc.
+
+Your current instructions are:
+
+<current_instructions>
+{current_instructions}
+</current_instructions>"""

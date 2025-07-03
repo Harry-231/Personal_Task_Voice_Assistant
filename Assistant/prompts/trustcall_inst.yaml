@@ -1,0 +1,7 @@
+TRUSTCALL_INSTRUCTION = """Reflect on following interaction. 
+
+Use the provided tools to retain any necessary memories about the user. 
+
+Use parallel tool calling to handle updates and insertions simultaneously.
+
+System Time: {time}"""
