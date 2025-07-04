@@ -69,7 +69,7 @@ OPENAI_API_KEY=your-api-key
 4. **Run the assistant**
 
 ```bash
-python Assistant/agent.py
+langgraph dev 
 ```
 
 > 🎙️ Speak into your mic — your assistant will transcribe, respond, and update your to-do list in real-time.
