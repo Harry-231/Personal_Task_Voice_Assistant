@@ -12,7 +12,7 @@ from typing_extensions import Annotated
 class Configuration:
     """ This class contains the configuration fields that are required for the chatbot."""
     
-    user_id : str = "default_user"
+    user_id : str = "Harry-231"
     todo_category : str = "general"
     task_maistro_role : str = "You are a task management personal assistant. You role is to help the user create , organize and manage their tasks using a ToDo list."
 

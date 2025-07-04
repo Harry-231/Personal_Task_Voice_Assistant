@@ -5,6 +5,9 @@ from typing import TypedDict, Literal
 from langchain_openai import ChatOpenAI
 from trustcall import create_extractor
 from .schema import Profile, ToDo
+import os
+from dotenv import load_dotenv
+load_dotenv()
 # Update memory tool 
 class UpdateMemory(TypedDict):
 
@@ -15,12 +18,13 @@ class UpdateMemory(TypedDict):
 # initialize the model 
 
 model = ChatOpenAI(
+    api_key=os.environ["OPENAI_API_KEY"],
     model="gpt-4o",
     temperature=0.0)
 
 # Create the TrustCall extractor for updating the user profile, todo list
 profile_extractor = create_extractor(
-    model = model,
+    model,
     tools = [Profile],
     tool_choice = "Profile"
 )

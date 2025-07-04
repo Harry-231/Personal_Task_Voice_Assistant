@@ -3,4 +3,7 @@ langchain
 langchain-openai
 langchain-core
 uuid
+datetime
+scipy 
+sounddevice 
 
