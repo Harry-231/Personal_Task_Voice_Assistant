@@ -323,22 +323,6 @@ graph LR
 
 </div>
 
----
-
-## 🎪 **Configuration Options**
-
-<details>
-<summary>⚙️ <strong>Customize your assistant</strong></summary>
-
-### 🎨 **Environment Variables**
-```env
-# Core Configuration
-OPENAI_API_KEY=your-api-key
-LIVEKIT_API_KEY
-LIVEKIT_SECRET_ID 
-LANGSMITH_API_KEY
-
-```
 
 
 
@@ -380,12 +364,8 @@ pre-commit install
 # 4. Make your changes
 # ... code, test, document ...
 
-# 5. Run tests
-pytest tests/ -v
-black Assistant/
-flake8 Assistant/
 
-# 6. Submit a pull request
+# 5. Submit a pull request
 git push origin amazing-new-feature
 ```
 
