@@ -334,85 +334,13 @@ graph LR
 ```env
 # Core Configuration
 OPENAI_API_KEY=your-api-key
-USER_ID=unique-user-identifier
-DEFAULT_CATEGORY=work|personal|projects
+LIVEKIT_API_KEY
+LIVEKIT_SECRET_ID 
+LANGSMITH_API_KEY
 
-# Voice Settings
-VOICE_LANGUAGE=en-US|es-ES|fr-FR|de-DE
-VOICE_SPEED=normal|slow|fast
-AUDIO_QUALITY=high|medium|low
-
-# AI Behavior
-RESPONSE_STYLE=professional|casual|enthusiastic
-TASK_DETAIL_LEVEL=minimal|normal|detailed
-AUTO_REMINDERS=true|false
-
-# Advanced Features
-ENABLE_SMART_SUGGESTIONS=true|false
-CONTEXT_MEMORY_DAYS=7
-MAX_TASKS_PER_CATEGORY=50
 ```
 
-### 🎯 **Custom Prompts**
-```python
-# Customize how your assistant behaves
-ASSISTANT_PERSONALITY = """
-You are a productivity-focused assistant who:
-- Speaks in an encouraging, positive tone
-- Prioritizes urgent tasks automatically  
-- Suggests time-blocking for large projects
-- Celebrates completed tasks
-"""
-```
 
-</details>
-
----
-
-## 🧪 **Testing & Quality Assurance**
-
-<div align="center">
-
-[![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen?style=for-the-badge)](tests/)
-[![Coverage](https://img.shields.io/badge/Coverage-95%25-success?style=for-the-badge)](coverage/)
-[![Performance](https://img.shields.io/badge/Performance-Optimized-blue?style=for-the-badge)](benchmarks/)
-
-</div>
-
-```bash
-# Run the full test suite
-pytest tests/ -v --cov=Assistant/
-
-# Performance benchmarks
-python benchmarks/speed_test.py
-
-# Memory usage analysis
-python benchmarks/memory_profiler.py
-```
-
----
-
-## 🌟 **Roadmap - What's Coming Next**
-
-### 🚀 **Version 2.0 - The Future is Bright**
-
-- [ ] 🌍 **Multi-language support** (Spanish, French, German, Japanese)
-- [ ] 📱 **Mobile app** with push notifications
-- [ ] 🔗 **Calendar integration** (Google, Outlook, Apple)
-- [ ] 🤝 **Team collaboration** features
-- [ ] 📊 **Analytics dashboard** for productivity insights
-- [ ] 🎨 **Custom themes** and personalization
-- [ ] 🔌 **Plugin system** for third-party integrations
-
-### 🎯 **Community Requested Features**
-
-- [ ] 💬 **Slack/Discord integration**
-- [ ] 🎵 **Spotify workflow integration**
-- [ ] 📧 **Email task extraction**
-- [ ] 🏃‍♂️ **Fitness goal tracking**
-- [ ] 💰 **Budget and expense tracking**
-
----
 
 ## 🤝 **Contributing - Join the Revolution**
 
@@ -463,51 +391,7 @@ git push origin amazing-new-feature
 
 </details>
 
----
 
-## 🏆 **Recognition & Awards**
-
-<div align="center">
-
-🥇 **"Best AI Personal Assistant 2024"** - TechCrunch Disrupt  
-🌟 **"Most Innovative Voice UI"** - GitHub Stars Rising  
-🎯 **"Top Python Project"** - Real Python Community  
-🚀 **"Startup of the Month"** - Product Hunt  
-
-</div>
-
----
-
-## 📊 **Performance Metrics**
-
-<div align="center">
-
-| Metric | Performance | Industry Standard |
-|--------|-------------|-------------------|
-| 🎤 **Voice Recognition** | 97.5% accuracy | 95% |
-| ⚡ **Response Time** | <2 seconds | <5 seconds |
-| 🧠 **Memory Efficiency** | 45MB RAM | 100MB+ |
-| 🔋 **CPU Usage** | <15% | <30% |
-| 📱 **Cross-platform** | 100% compatible | 80% |
-
-</div>
-
----
-
-## 🎭 **Community & Support**
-
-<div align="center">
-
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/your-server)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow%20Updates-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your-handle)
-[![Documentation](https://img.shields.io/badge/Docs-Read%20More-FF6B6B?style=for-the-badge&logo=gitbook&logoColor=white)](https://docs.your-domain.com)
-
-**💬 Questions? Ideas? Just want to chat?**
-Join our vibrant community of productivity enthusiasts!
-
-</div>
-
----
 
 ## 📄 **License & Legal**
 
