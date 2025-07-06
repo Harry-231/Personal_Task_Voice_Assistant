@@ -169,18 +169,16 @@ Create a `.env` file:
 # Required
 OPENAI_API_KEY=your-openai-api-key
 
-# Optional: Customize your experience
-USER_ID=your-unique-identifier
-DEFAULT_CATEGORY=personal
-VOICE_LANGUAGE=en-US
-```
+
 
 #### 4️⃣ **Launch & Enjoy**
 ```bash
 langgraph dev
 ```
+```
+Go to the langgraph url and write HI in the chat !
 
-**🎉 That's it! Start speaking to your new AI assistant!**
+**🎉 That's it! Start speaking to your new AI assistant!
 
 </details>
 
