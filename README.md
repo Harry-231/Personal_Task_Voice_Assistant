@@ -177,7 +177,7 @@ langgraph dev
 ```
 ```
 Go to the langgraph url and write HI in the chat !
-
+```
 **🎉 That's it! Start speaking to your new AI assistant!
 
 </details>
